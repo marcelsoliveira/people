@@ -63,18 +63,7 @@ class ContactInfo extends React.Component {
         document.body.removeChild(downloadLink);
     }
     convertImageToBase64() {
-        let imageToBase64 = require('image-to-base64');
-        imageToBase64(this.props.picture)
-            .then(
-                (base64Photo) => {
-                    this.setState({contactPhoto: base64Photo})
-                }
-            )
-            .catch(
-                (error) => {
-                    console.log(error);
-                }
-            )
+      //pass
     }
     render() {
         return (
