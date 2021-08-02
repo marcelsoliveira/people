@@ -12,7 +12,11 @@ With Valtch People you can:
 
 You can see the app in action here:
 
-[Valtech People preview](https://marcelsoliveira.github.io/pople/).
+[Valtech People preview](https://marcelsoliveira.github.io/people/).
+
+## Todo list
+* Make app work properly on mobile
+* Fix bug when generating v-cards and adding contact photo to it.
 
 ## Running the app
 
