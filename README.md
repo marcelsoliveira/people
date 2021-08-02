@@ -12,7 +12,7 @@ With Valtch People you can:
 
 You can see the app in action here:
 
-[Valtech People preview](https://marcelsoliveira.github.io/valtech_pople/).
+[Valtech People preview](https://marcelsoliveira.github.io/pople/).
 
 ## Running the app
 
