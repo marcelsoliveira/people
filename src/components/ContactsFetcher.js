@@ -13,10 +13,8 @@ class ContactFetcher extends React.Component {
         this.packContacts = this.packContacts.bind(this);
     }
     async fetchContacts() {
-
         let queryUrl = Configuration.userUrl + "/api/?nat=au,br,ca,ch,de,dk,es,fi,fr,gb,ie,nl,nz,us&results=";
         let fullQuery = queryUrl + Configuration.numberCards.toString();
-        console.log(fullQuery)
         await axios.get(fullQuery).then((response) => {this.state.serverResponse = this.processContacts(response.data.results)}).catch((error) => {this.state.serverResponse = error});
         return this.state.serverResponse;
     }

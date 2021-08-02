@@ -1,0 +1,28 @@
+.logo-bar-container {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 80pt;
+    height: 100%;
+}
+.vertical-logo {
+    position: absolute;
+    left: calc(50% - 21pt);
+    bottom: 20pt;
+    width: 52pt;
+}
+.logo-bar-button-container {
+    width: 80pt;
+    height: 80pt;
+    opacity: 1;
+    display: grid;
+    transition: all 400ms;
+}
+.logo-bar-button-container:hover {
+    opacity: 0.4;
+}
+.logo-bar-button-container img {
+    align-self: center;
+    margin: 0 auto;
+    width: 30pt;
+}

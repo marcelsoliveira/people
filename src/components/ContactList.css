@@ -1,0 +1,54 @@
+.contact-list-container {
+    position: absolute;
+    left: 160pt;
+    top: 90pt;
+    width: calc(100% - 160pt);
+    height: calc(100% - 180pt);
+    overflow-y: scroll;
+    overflow-x: hidden;
+    padding-bottom: 60pt;
+    padding-top: 20pt;
+    scrollbar-color: #000000 #FFFFFF;
+    scrollbar-width: thin; 
+}
+.contact-list-container::-webkit-scrollbar {
+    width: 10px;
+}
+.contact-list-container::-webkit-scrollbar-track {
+    background: #FFFFFF; 
+}
+.contact-list-container::-webkit-scrollbar-thumb {
+    background: #000000; 
+}
+
+.loader {
+    position: absolute;
+    left: calc(50% - 25pt + 40pt);
+    top: calc(50% - 25pt + 40pt);
+    width: 50pt;
+    height: 50pt;
+    transition: all 500ms;
+}
+.loader-fade {
+    opacity: 0;
+}
+.contact-list-top-gradient {
+    position: fixed;
+    top: 90pt;
+    left: 160pt;
+    width: calc(100% - 168pt);
+    height: 70pt;
+    background: linear-gradient(0, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 80%);
+    pointer-events: none;
+    z-index: 1;
+}
+.contact-list-bottom-gradient {
+    position: fixed;
+    bottom: 0pt;
+    left: 160pt;
+    width: calc(100% - 168pt);
+    height: 70pt;
+    background: linear-gradient(180deg, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 80%);
+    pointer-events: none;
+    z-index: 1;
+}

@@ -1,0 +1,95 @@
+.splash-screen-container {
+    position:absolute;
+    width: 100%;
+    height: 100%;
+    top: 0pt;
+    left: 0pt;
+    background-color: #FFFFFF;
+    z-index: 100;
+}
+.splash-screen-main {
+    position: absolute; 
+    width: 100%;
+    height: 100%;
+    top: 0pt;
+    left: 0pt;
+    background-color: #000000;
+}
+.splash-screen-main-exit {
+    animation-name: splash-screen-main-exit-animation;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-delay: 4800ms;
+    animation-fill-mode: forwards;
+}
+@keyframes splash-screen-main-exit-animation {
+    0% {width: 100%; left:0pt}
+    100% {width: 80pt; left:80pt}
+}
+.splash-screen-container-exit {
+    animation-name: splash-screen-container-exit-animation;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-delay: 5000ms;
+    animation-fill-mode: forwards;
+}
+@keyframes splash-screen-container-exit-animation {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+.splash-screen-logo-container {
+    position: absolute;
+    width: 450pt;
+    height: 200pt;
+    top: calc(30% - 100pt);
+    left: calc(50% - 225pt);
+    opacity: 0;
+}
+.splash-screen-logo-container-enter {
+    animation-name: splash-screen-logo-container-enter-animation;
+    animation-duration: 1000ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-delay: 500ms;
+    animation-fill-mode: forwards;
+}
+@keyframes splash-screen-logo-container-enter-animation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+.splash-screen-exit {
+    animation-name: splash-content-exit-animation;
+    animation-duration: 500ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-delay: 0ms;
+    animation-fill-mode: forwards;
+}
+@keyframes splash-content-exit-animation {
+    0% {opacity: 1;}
+    100% {opacity: 0;}
+}
+.powered-container {
+    position: absolute;
+    width: 100%;
+    height: 50pt;
+    bottom: calc(30% - 100pt);
+    left: 0pt;
+    color: #FFFFFF;
+    opacity: 0;
+    font-family: 'helvetica-neue-light';
+    font-size: 15pt;
+}
+.powered-container h{
+    font-family: 'helvetica-neue-bold';
+}
+.splash-loader {
+    position: absolute;
+    bottom: calc(50% - 100pt);
+    left: calc(50% - 30pt);
+    width: 60pt;
+    height: 70pt;
+    opacity: 0;
+}

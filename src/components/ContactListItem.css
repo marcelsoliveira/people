@@ -1,0 +1,61 @@
+.contact-list-item-container {
+    width: calc(100% - 60pt);
+    height: 90pt;
+    margin-left: 30pt;
+    margin-right: 30pt;
+    transition: all 400ms;
+}
+.contact-list-item-container:hover {
+    background-color: #EFEFEF;
+}
+.contact-list-item-container-chevron-container {
+    float: right;
+    width: 80pt;
+    height: calc(100% - 2pt);
+    display: grid;
+    opacity: 1;
+    transition: all 400ms;
+}
+.contact-list-item-container-chevron-container  img {
+    align-self: center;
+    margin: 0 auto;
+    width: 30pt;
+}
+.contact-list-item-container-user-photo-container {
+    float: left;
+    width: 80pt;
+    height: calc(100% - 2pt);
+    display: grid;
+}
+.contact-list-item-container-user-photo-container img{ 
+    align-self: center;
+    margin: 0 auto;
+    height: 60pt;
+    filter: grayscale(100%);
+}
+.divider {
+    float: left;
+    width: 100%;
+    height: 2pt;
+    background-color: #0000001c;
+}
+.contact-list-item-user-name {
+    float: left;
+    line-height: 42pt;
+    font-size: 23pt;
+}
+.contact-list-item-user-name p:first-child {
+    float: left;
+    font-family: 'helvetica-neue-light';
+}
+.contact-list-item-user-name p {
+    float: left;
+    margin-left: 7pt;
+    font-family: 'helvetica-neue-bold';
+}
+.contact-list-item-animation-enter {
+    opacity: 0;
+}
+.contact-list-item-animation-enter-active {
+    opacity: 1;
+}

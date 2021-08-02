@@ -1,0 +1,53 @@
+.nav-bar-container {
+    position: absolute;
+    left: 160pt;
+    top: 0pt;
+    width: calc(100% - 220pt);
+    height: 90pt;
+    background-color: #FFFFFF;
+    padding-left: 30pt;
+    padding-right: 30pt;
+}
+.nav-bar-selected-character {
+    float: left;
+    width: 80pt;
+    height: calc(100% - 2pt);
+    line-height: 80pt;
+    font-size: 40pt;
+    font-family: 'helvetica-neue-bold';
+}
+.nav-bar-contact-counter {
+    float: left;
+    width: auto;
+    height: 34pt;
+    padding-left: 13pt;
+    padding-right: 13pt;
+    margin-top: 24pt;
+    margin-left: 10pt;
+    background-color: #0AC8FD;
+    color: #FFFFFF;
+    font-size: 28pt;
+    font-family: 'helvetica-neue-heavy';
+}
+.nav-bat-button-container {
+    float: right;
+    width: 80pt;
+    height: calc(100% - 2pt);
+    display: grid;
+    opacity: 0.3;
+    transition: all 400ms;
+}
+.nav-bat-button-container:hover {
+    opacity: 1;
+}
+.nav-bat-button-container img {
+    align-self: center;
+    margin: 0 auto;
+    width: 30pt;
+}
+.separation-bar {
+    float: left;
+    width: 100%;
+    height: 2pt;
+    background-color: #000000;
+}

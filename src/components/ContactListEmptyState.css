@@ -1,0 +1,36 @@
+.empty-state-container {
+    position: absolute;
+    height: calc(100% - 90pt);
+    width: calc(100% - 160pt);
+    top: 90pt;
+    left: 160pt;
+    background-color: #FFFFFF;
+}
+.empty-state-message-container {
+    position: absolute;
+    width: 500pt;
+    height: 180pt;
+    top: calc(50% - 90pt);
+    left: calc(50% - 250pt);
+    opacity: 0.4;
+}
+.empty-state-message-container img{
+    height: 100pt;
+}
+.empty-state-message {
+    color: #000000;
+    font-family: 'helvetica-neue-regular';
+    margin-top: 20pt;
+    font-size: 18pt;
+}
+.empty-state-enter {
+    animation-name: empty-state-enter-animation;
+    animation-duration: 600ms;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+@keyframes empty-state-enter-animation {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
