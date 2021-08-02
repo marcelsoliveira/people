@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "./static/css/main.5615819a.chunk.css",
+    "main.js": "./static/js/main.30da36fe.chunk.js",
+    "main.js.map": "./static/js/main.30da36fe.chunk.js.map",
+    "runtime-main.js": "./static/js/runtime-main.4cb1ce3d.js",
+    "runtime-main.js.map": "./static/js/runtime-main.4cb1ce3d.js.map",
+    "static/js/2.3f06dc98.chunk.js": "./static/js/2.3f06dc98.chunk.js",
+    "static/js/2.3f06dc98.chunk.js.map": "./static/js/2.3f06dc98.chunk.js.map",
+    "static/js/3.c186fe5e.chunk.js": "./static/js/3.c186fe5e.chunk.js",
+    "static/js/3.c186fe5e.chunk.js.map": "./static/js/3.c186fe5e.chunk.js.map",
+    "index.html": "./index.html",
+    "static/css/main.5615819a.chunk.css.map": "./static/css/main.5615819a.chunk.css.map",
+    "static/js/2.3f06dc98.chunk.js.LICENSE.txt": "./static/js/2.3f06dc98.chunk.js.LICENSE.txt",
+    "static/media/TypeFaces.css": "./static/media/HelveticaRounded-Bold.7c013711.otf",
+    "static/media/account-alert.c6f76180.svg": "./static/media/account-alert.c6f76180.svg",
+    "static/media/age.d38a42d7.svg": "./static/media/age.d38a42d7.svg",
+    "static/media/chevron-left.c7c5682c.svg": "./static/media/chevron-left.c7c5682c.svg",
+    "static/media/chevron-right.5390ea80.svg": "./static/media/chevron-right.5390ea80.svg",
+    "static/media/close.ca92fef7.svg": "./static/media/close.ca92fef7.svg",
+    "static/media/dob.565ef536.svg": "./static/media/dob.565ef536.svg",
+    "static/media/email.30b849c3.svg": "./static/media/email.30b849c3.svg",
+    "static/media/info.bd4c8878.svg": "./static/media/info.bd4c8878.svg",
+    "static/media/loader.c5aba0fa.svg": "./static/media/loader.c5aba0fa.svg",
+    "static/media/loader_splash.fb826bd4.svg": "./static/media/loader_splash.fb826bd4.svg",
+    "static/media/location.2a13b3b4.svg": "./static/media/location.2a13b3b4.svg",
+    "static/media/logo.6ce24c58.svg": "./static/media/logo.6ce24c58.svg",
+    "static/media/logo_splash.73b2f425.svg": "./static/media/logo_splash.73b2f425.svg",
+    "static/media/logo_vertical.cc9f62be.svg": "./static/media/logo_vertical.cc9f62be.svg",
+    "static/media/person.c2afbeec.svg": "./static/media/person.c2afbeec.svg",
+    "static/media/phone-classic.6b1139f0.svg": "./static/media/phone-classic.6b1139f0.svg",
+    "static/media/phone.9774a2d5.svg": "./static/media/phone.9774a2d5.svg",
+    "static/media/search_selected.fa9c8156.svg": "./static/media/search_selected.fa9c8156.svg",
+    "static/media/share_contact.5957181d.svg": "./static/media/share_contact.5957181d.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.4cb1ce3d.js",
+    "static/js/2.3f06dc98.chunk.js",
+    "static/css/main.5615819a.chunk.css",
+    "static/js/main.30da36fe.chunk.js"
+  ]
+}
